@@ -1,6 +1,5 @@
 package com.flashdin.apidoc.pojos;
 
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,7 +13,6 @@ import javax.persistence.Id;
 @Setter
 public class Tag {
 
-    @ApiModelProperty(notes = "The database generated product ID")
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
