@@ -1,0 +1,37 @@
+= Demo API
+hehe@gmail.com
+:toc: left
+
+== Introduction
+
+This Demo API is intended to make it easy for you to understand how to use Spring REST Docs to produce high-quality documentation for your RESTful services.
+
+== Resources
+
+=== Add Calculator
+
+.curl request
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/curl-request.adoc[]
+
+.request
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/http-request.adoc[]
+
+.response
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/http-response.adoc[]
+
+.httpie request
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/httpie-request.adoc[]
+
+.request body
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/request-body.adoc[]
+
+.request parameters
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/request-parameters.adoc[]
+
+.response body
+include::{snippets}/ApiDocumentationJUnit5IntegrationTest/addCalculator/response-body.adoc[]
+
+
+== Contributions
+
+This Demo API is intended to make it easy for you to understand how to use Spring REST Docs to produce high-quality documentation for your RESTful services. However, we can’t achieve that goal without your contributions.
